@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  body {
+    font-size: 1.6rem;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+
+    &__input-outer {
+      flex-grow: 1;
+      margin-right: 2rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .main {
+    padding: 3rem 6rem;
+  }
+
+  .detail {
+    gap: 6rem;
+    grid-template-columns: 1fr 1fr;
+
+    &__img {
+      max-height: 50rem;
+    }
+  }
+
+  .b-country {
+    &__header {
+      font-size: 1.8rem
+    }
+  }
+}

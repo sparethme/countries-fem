@@ -1,0 +1,14 @@
+:root,
+[data-theme='light'] {
+  --primary: hsl(0, 0%, 100%);
+  --secondary: hsl(0, 0%, 52%);
+  --background-color: hsl(0, 0%, 98%);
+  --font-color: hsl(200, 15%, 8%);
+}
+
+[data-theme='dark'] {
+  --primary: hsl(209, 23%, 22%);
+  --secondary: hsl(0, 0%, 83%);
+  --background-color: hsl(207, 26%, 17%);
+  --font-color: hsl(0, 0%, 100%);
+}

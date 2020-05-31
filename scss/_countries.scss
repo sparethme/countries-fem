@@ -1,0 +1,31 @@
+.country {
+  padding: 0 3rem 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+}
+
+.card {
+  background-color: var(--primary);
+  border-radius: 3px;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, .1);
+
+  &__link {
+    cursor: pointer;
+  }
+
+  &__img {
+    display: block;
+    height: 20rem;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+
+  &__body {
+    padding: 3rem;
+  }
+
+}

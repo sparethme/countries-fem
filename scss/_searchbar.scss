@@ -1,0 +1,70 @@
+.search {
+  padding: 3rem;
+}
+
+.form {
+  
+  &__input-outer {
+    display: flex;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  &__input-icon {
+    position: absolute;
+    color: var(--secondary);
+    left: 1.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+  }
+
+  &__input {
+    flex: 1;
+    padding: 1.8rem 2rem;
+    font-size: inherit;
+    font-weight: 300;
+    text-indent: 2.6rem;
+    color: var(--font-color);
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px -1px rgba(0, 0, 0, .1);
+
+    &::placeholder {
+      color: var(--secondary);
+      opacity: 60%;
+    }
+  }
+
+  &__select-outer {
+    display: inline-flex;
+    position: relative;
+  }
+
+  &__select-icon {
+    position: absolute;
+    color: inherit;
+    right: 1.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+
+  &__select {
+    position: relative;
+    width: 17rem;
+    padding: 1.8rem 2rem;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--primary);
+    box-shadow: 0 1px 6px -1px rgba(0, 0, 0, .1);
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+}
